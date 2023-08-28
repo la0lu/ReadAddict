@@ -1,0 +1,128 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a {
+  color: #0077cc;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+
+.navbar {
+    background-color: rgba(255, 230, 180, 1.0);
+}
+
+.nav-item {
+    background-color: white;
+    padding: 2px;
+    border-radius: 20px;
+    color: white;
+    margin: 0px 5px 0px 5px;
+}
+.nav-item:hover {
+    background-color: #957f5d;
+}
+
+
+
+/* Footer */
+.footer {
+    background-color: rgba(255, 230, 180, 0.7);
+    line-height: 1.5; /* Adjust the line-height for better spacing */
+    padding: 10px 0; /* Add some padding for spacing */
+}
+
+.footer a {
+   color: white; /* Link color in the footer */
+}
+
+/*.footer a:hover {
+    text-decoration: underline;
+    background-color: white;
+    color: black;*/ /* Change the text color on hover to improve readability */
+    /*transition: background-color 0.3s ease;
+}*/
+
+/*a.nav-link:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;*/ /* Smooth transition for background color and text color changes */
+/*}*/
+
+
+.thumbnail-holder {
+    position: relative;
+    width: 100%;
+}
+
+.thumbnail-loggedin-user {
+    position: absolute;
+    right: 0px;
+    width: 250px;
+    display: flex;
+}
+
+.thumb-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.nav-login-join{
+    display:flex;
+    padding: 0px;
+
+
+}
+
+#nav-join{
+    background-color:peru;
+    border-radius: 20px;
+}
+
+#nav-join:hover{
+    background-color: white;
+}
+

@@ -1,0 +1,129 @@
+/* _content/ReadAddict/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-plovm1ijxf] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-plovm1ijxf] {
+  color: #0077cc;
+}
+
+.btn-primary[b-plovm1ijxf] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-plovm1ijxf], .nav-pills .show > .nav-link[b-plovm1ijxf] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-plovm1ijxf] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-plovm1ijxf] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-plovm1ijxf] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-plovm1ijxf] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-plovm1ijxf] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+
+.navbar[b-plovm1ijxf] {
+    background-color: rgba(255, 230, 180, 1.0);
+}
+
+.nav-item[b-plovm1ijxf] {
+    background-color: white;
+    padding: 2px;
+    border-radius: 20px;
+    color: white;
+    margin: 0px 5px 0px 5px;
+}
+.nav-item:hover[b-plovm1ijxf] {
+    background-color: #957f5d;
+}
+
+
+
+/* Footer */
+.footer[b-plovm1ijxf] {
+    background-color: rgba(255, 230, 180, 0.7);
+    line-height: 1.5; /* Adjust the line-height for better spacing */
+    padding: 10px 0; /* Add some padding for spacing */
+}
+
+.footer a[b-plovm1ijxf] {
+   color: white; /* Link color in the footer */
+}
+
+/*.footer a:hover {
+    text-decoration: underline;
+    background-color: white;
+    color: black;*/ /* Change the text color on hover to improve readability */
+    /*transition: background-color 0.3s ease;
+}*/
+
+/*a.nav-link:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;*/ /* Smooth transition for background color and text color changes */
+/*}*/
+
+
+.thumbnail-holder[b-plovm1ijxf] {
+    position: relative;
+    width: 100%;
+}
+
+.thumbnail-loggedin-user[b-plovm1ijxf] {
+    position: absolute;
+    right: 0px;
+    width: 250px;
+    display: flex;
+}
+
+.thumb-image[b-plovm1ijxf] {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.nav-login-join[b-plovm1ijxf]{
+    display:flex;
+    padding: 0px;
+
+
+}
+
+#nav-join[b-plovm1ijxf]{
+    background-color:peru;
+    border-radius: 20px;
+}
+
+#nav-join:hover[b-plovm1ijxf]{
+    background-color: white;
+}
+

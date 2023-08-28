@@ -1,0 +1,43 @@
+﻿@model RegisterViewModel
+
+@{
+}
+
+<div class="login-container">
+    <div class="login-panel">
+        <h3>Create New Account</h3>
+        <p>It's quick and easy!'</p>
+        <div asp-validation-summary="All" style="color:red; font-size:12px;"></div>
+        <form method="post" asp-action="Register" asp-controller="Account">
+            
+            <div class="login-input">
+                <span asp-validation-for="FirstName" style="color:red; font-size:12px"></span>
+                <input asp-for= "FirstName" placeholder="First Name" class="text-input"/>
+            </div>
+            <div class="login-input"> 
+                <span asp-validation-for="LastName" style="color:red; font-size:12px"></span>
+                <input asp-for="LastName" placeholder="Last Name" class="text-input" />
+            </div>
+           
+            <div class ="login-input">
+                <span asp-validation-for="Email" style="color:red; font-size:12px"></span>
+                <input asp-for="Email" placeholder="Email Address" class="text-input" />
+            </div>
+            
+            <div class ="login-input">
+                <span asp-validation-for="PhoneNumber" style="color:red; font-size:12px"></span>
+                <input asp-for="PhoneNumber" placeholder="Phone Number" class="text-input" />
+            </div>
+           
+            <div class="login-input">
+                <span asp-validation-for="PassWord" style="color:red; font-size:12px"></span>
+                <input asp-for="PassWord" placeholder="Password" class="text-input" />
+            </div>
+
+            <button class="login-button">Sign Up</button>
+           
+        </form>
+
+        <p>Already have an account? <a asp-action="Login" asp-controller="Account" class="login-link" style="color:red;">Login</a></p>
+    </div>
+</div>

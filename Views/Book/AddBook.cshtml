@@ -1,0 +1,23 @@
+﻿
+@{
+    var bookCategories = new List<string> { "Fiction", "Non-Fiction" };
+    var bookGenres = new List<string> { "Romance", "Thriller", "Fantasy", "Mystery", "Biography", "Motivational" };
+}
+
+
+    <div class="add-book-container">
+    <h3>Add a new book</h3>
+    <form method="post">
+        <input placeholder="Book Title"/>
+        <input placeholder="Author" />
+        <select id="book-categories">
+            @foreach(var item in bookCategories)
+            {
+                <option value="@item">@item</option>
+            }
+           
+        </select>
+    </form>
+</div>
+
+

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadAddict", "ReadAddict.csproj", "{E4BCA083-E582-45B0-96E8-F995DF29589C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookLibraryAPI", "..\BookLibraryAPI\BookLibraryAPI.csproj", "{5D270552-84FE-4CB6-B727-5CB48BB4A856}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4BCA083-E582-45B0-96E8-F995DF29589C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4BCA083-E582-45B0-96E8-F995DF29589C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4BCA083-E582-45B0-96E8-F995DF29589C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4BCA083-E582-45B0-96E8-F995DF29589C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D270552-84FE-4CB6-B727-5CB48BB4A856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D270552-84FE-4CB6-B727-5CB48BB4A856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D270552-84FE-4CB6-B727-5CB48BB4A856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D270552-84FE-4CB6-B727-5CB48BB4A856}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1C79917-C97E-4B1B-80A9-BF3AFDD80AB6}
+	EndGlobalSection
+EndGlobal

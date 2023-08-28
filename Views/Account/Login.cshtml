@@ -1,0 +1,44 @@
+﻿@model LoginViewModel
+@inject SignInManager<AppUser> _signInManager
+
+@{
+    var errMsg = ViewBag.Err;
+    var returnUrl = ViewBag.ReturnUrl ?? "/";
+
+}
+
+<div class="login-container">
+    <div class="login-panel" style="text-align: center">
+        <h3>Login to ReadAddict</h3>
+        
+        <form method="post" asp-action="Login" asp-controller="Account" asp-route-ReturnUrl="@returnUrl">
+            <div style=" color: red; font-size: 10px;">
+                @if (!string.IsNullOrEmpty(errMsg))
+                {
+                    @errMsg;
+                }
+            </div>
+            
+            <div class="login-input">
+                <span asp-validation-for="Email" style="color: red; font-size: 12px;"></span>
+                <input asp-for="Email" placeholder="email" class="text-input"/>
+            </div>
+           
+            <div class="login-input">
+                <span asp-validation-for="Password" style="color: red; font-size: 12px;"></span>
+                <input asp-for="Password" placeholder="password" class="text-input" type="password"/>
+            </div>
+            <div class="login-input" id="login-input-forgot-pass">
+                <div><input asp-for="RememberMe" style="width: 15px;"/>Remember Me</div>
+                
+                <div>
+                    <a asp-action="ForgotPassword" asp-asp-controller="Account">Forgot password</a>
+                </div>
+            </div>
+            <button class="login-button">Login</button>
+        </form>        
+           
+            <p>Don't have an account? <a class="login-link" asp-action="Register" asp-controller="Account" style="color: red;">Sign up</a></p>
+    </div>
+
+</div>
